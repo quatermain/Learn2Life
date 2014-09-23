@@ -1,0 +1,7 @@
+<h1>Categories</h1>
+<% @categories.each do |category| %>
+    <article>
+      <h2><%= category.name %></h2>
+      <%= link_to 'Read more', "/categories/#{category.id}" %>
+    </article>
+<% end %>
