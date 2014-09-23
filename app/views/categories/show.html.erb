@@ -1,1 +1,8 @@
 <h1><%= @category.name %></h1>
+<% @category.articles.each do |article| %>
+    <article>
+      <h2><%= article.name %></h2>
+      <p><%= article.content[0..40] %></p>
+      <%= link_to 'Read more', "/articles/#{article.id}" %>
+    </article>
+<% end %>
