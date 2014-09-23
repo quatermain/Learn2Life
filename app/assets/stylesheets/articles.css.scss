@@ -1,3 +1,24 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  width: 100%;
+  text-align: center;
+}
+article {
+  width: 400px;
+  margin: 0 auto;
+  border-bottom: 1px dashed #999;
+  padding: 5px;
+  background: #F0F0F0;
+  margin-bottom: 10px;
+  h2{
+    margin: 0;
+  }
+  p{
+    font-style: italic;
+    margin: 0;
+    padding: 8px;
+  }
+
+}
